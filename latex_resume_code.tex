@@ -1,0 +1,256 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\documentclass[11pt]{article}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\documentclass{article}
+\usepackage{graphicx} 
+\usepackage{hyperref} 
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+
+%----------HEADING-----------------
+\begin{center}
+    \textbf{\huge Kamlesh Kumar} \\ \vspace{5pt}
+    \textit{\large Computer Scientist} \\ \vspace{10pt} % Subtitle for your profession
+    \small \faLinkedin\ \href{https://linkedin.com/in/kamlesh-kumar-389847224}{linkedin.com/Kamlesh-Kumar} \hspace{5pt}
+    \faGithub\ \href{https://github.com/KamleshKumar427}{github.com/Kamlesh-Kumar} \hspace{5pt}
+    \href{https://stackoverflow.com/users/19111495/kamlesh-kumar}{\faStackOverflow\ stackoverflow.com/Kamlesh-Kumar} \\
+    \small \faMobile* \textbf{Mobile:} +92-312-7927120 \hspace{5pt}
+    \faEnvelope\ \href{mailto:kkumar.bscs20seecs@seecs.edu.pk}{kkumar.bscs20seecs@seecs.edu.pk}
+\end{center}
+
+\section{Summary}
+\resumeSubHeadingListStart
+\resumeSubItem{Summary}
+  {Computer Science undergraduate with practical experience in software development, including a 1-year tenure as an Associate Software Engineer and Intern at Bitnine Global Inc. Currently, Involved in developing Metaverse educational app for teaching and an automatic assessment system using LLMs. As an aspiring NLP enthusiast with a solid academic background in Computer Science, I am actively seeking opportunities in Natural Language Processing.}
+\resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\textbf{National University of Science and Technology (NUST)}}{Islamabad, Pakistan}
+      {Bachelor of Science in Computer Science}{Sep, 2020 -- Aug, 2024}
+     \begin{itemize}
+      \item \textbf{CGPA}: 3.44
+      \item \textbf{Courses}: Deep Learning, Artificial Intelligence, DSA, Design and Analysis of Algorithms, Software Engineering,  Operating Systems, Distributed Computing, Digital Image Processing, Embedded Systems, Database Systems, Computer Architecture and Organization, Computer Networks, Calculus & Analytical Geometry, Probability and Statistics, Linear Algebra
+    \end{itemize}
+    
+  \resumeSubHeadingListEnd
+
+
+
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Bitnine Global Inc, South Korea}{Jun, 2023 - Nov, 2023}
+      {Associate Software Engineer}{Part-time, Remote}
+      \resumeItemListStart
+        \resumeItem{Agedb-Cloud}
+          {Create a Cloud-based solution to access AGE databases online using Digital Ocean Virtual Machine, Age-viewer along with handling complexities of AGE. Age-viewer is a database user tool for AGE, a graph database built upon the architecture of the relational database PostgreSQL. AGE is an open-source project of the world's largest open-source foundation (\textbf{Apache}).} 
+          \vspace{5pt}
+          \\\textbf{Deployed at}: \href{http://www.agedb-cloud.io/login}{AGEDB Cloud} \textbf{Source Code}: \href{https://github.com/AGEDB-INC/Cloud-Express}{GitHub Repo} \\
+          
+          \textbf{Skills-utilized}: Node, MongoDB, React, JavaScript, PM2, Apache-AGE, Virtual Machines, Apache-AGE, Virtual Machines
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Bitnine Global Inc, South Korea}{Nov, 2022 - May, 2023}
+      {Software Engineer Intern}{Part-time, Remote}
+      \resumeItemListStart
+        \resumeItem{Pgpool-II}
+          {Implemented Apache-age to run on multiple servers, using the open-source project Pgpool-II for load-balancing and high availability. I was able to successfully conﬁgure and deploy the solution, which improved the performance and
+            scalability of the system. \textbf{Source code}: \href{https://github.com/apache/age/tree/AGEHA}{link}}
+
+          \vspace{5pt}
+          \textbf{Skills-utilized}: C, PostgreSQL, and AGE internal architecture
+ 
+        \resumeItem{AgeViewer-Go}
+          {Developing the back-end API, routing, and sessions for the desktop application age-viewer-go used for managing and administering Apache-age databases in Golang. \href{https://github.com/apache/age/tree/ageviewer_go}{link}}
+          
+          \vspace{5pt}
+          \textbf{Skills-utilized}: Golang, AGE internals
+
+      \resumeItemListEnd
+    \begin{tabular}{l}
+  {\textbf{Contact}: Kyungwon Jeon} 
+  - \href{mailto:kwjeon@bitnine.net}{kwjeon@bitnine.net}
+\end{tabular}
+
+  \resumeSubHeadingListEnd
+
+%--------PERSONAL PROJECTS------------
+\section{Personal Projects}
+
+\resumeSubHeadingListStart
+\resumeSubItem{AI-based Conversational Bot in Metaverse for English Language (08/2023 - \textbf{Present})}
+  {Developing a Metaverse application as my final year project that leverages large language model LLama-2 7B to create an interactive and immersive educational experience.}
+\resumeSubItem{Automatic Assessments and Feedback System using LLMs (11/2023 - \textbf{Present})}
+  {Working on an innovative system for generating automatic assessments and providing feedback post-results utilizing the capabilities of LLama-2 7B, aimed at enhancing the educational process.}
+\resumeSubItem{Fine-tuning DistilGPT-2 for Writing Prompts (Date range)}
+  {Fine-tuned the DistilGPT-2 model on a writing prompts dataset with approximately 273K examples to generate coherent and creative stories from prompts. \href{https://github.com/KamleshKumar427/DistilGpt2_fineTunning}{link} \\
+  \textbf{Tools Used:} DistilGPT-2, Python, PyTorch, Transformers, Hugging Face}
+
+\resumeSubItem{Resume-Classification-and-Ranking-using-ML (03/2023 - 05/2023)}
+  {Implemented a classification model based on education, work experience, and skills. Progressing toward automated resume ranking to optimize the screening process for job openings. \href{https://github.com/KamleshKumar427/Resume-Classification-and-Ranking-using-ML/tree/main}{link} \\
+  \textbf{Tools Used:} Python, Machine Learning Libraries, Scikit-Learn}
+\resumeSubItem{National ID CARD detector (12/2022 - 01/2023)}
+  {Developed an application in Python using OpenCV to detect ID cards from an image with 95\% accuracy. The application is capable of detecting ID cards from any angle or dimension, irrespective of the environment. Initially designed for Pakistan's National ID. \href{https://github.com/KamleshKumar427/National_ID_CARD_detection-}{link} \\
+  \textbf{Tools Used:} Python, OpenCV}
+\resumeSubItem{JSON-FILES SEARCH ENGINE (10/2022 - 12/2022)}
+  {An implementation of Hypertextual Search Engine based on the Google research paper ”The Anatomy of a Large-Scale Hypertextual Web Search Engine”. 
+  Utilized the for "Large-Scale Hypertextual Web Search Engine" to develop a search engine capable of searching 6 GB of JSON data for 4-5 word queries in under 1 second. \href{https://github.com/KamleshKumar427/JsonFilesSearchEngine}{link} \\
+  \textbf{Tools Used:} Python, Python NLTK Library}
+\resumeSubItem{GRAPHIC-DESIGNING FREELANCE WEBSITE (03/2022 - 05/2022)}
+  {Developed a crowdsourcing website for designers. The website is based on the competition of designers. The best design will win the contest. The website supports authentication with Google, Github, and Facebook login systems and much more. \href{https://github.com/moezAhmad/Design-Heaven}{link} \\
+  \textbf{Tools Used:} React, Firebase, OAuth}
+
+\resumeSubItem{Java DESKTOP GAME (03/2021 - 05/2021)}
+  {Created a GUI-based board game that converts randomly generated decimals to multiple systems, featuring different memory management tasks using only 4 arrays to power all rounds and different board sizes. \href{https://github.com/KamleshKumar427/Number_system_conversoin_in_java}{link} \\
+  \textbf{Tools Used:} Java, JavaFX}
+\resumeSubItem{Snake Game in Assembly for intel x86 architecture (03/2022 - 05/2022)}
+  {Developed a Snake game in assembly language, showcasing expertise in low-level programming. Implemented features such as dynamic movement, collision detection, and a user-friendly menu system. Demonstrated modular coding practices to enhance code readability and maintainability. \href{https://github.com/KamleshKumar427/Snake_game_Assembly_Language}{link} \\
+  \textbf{Tools Used:} Java, JavaFX}
+\resumeSubHeadingListEnd
+
+
+%--------SKILLS------------
+\section{Skills}
+\resumeSubHeadingListStart
+\item{
+  \textbf{Languages}{: Python, JavaScript, C/C++, Golang, x86 assembly language, RISC-V, Apache-AGE SQL, Shell script}
+}
+\item{
+  \textbf{ML/DL Libraries}{: PyTorch, TensorFlow, Transformers, Hugging Face, Langchain, OpenAI API, NLTK, Spacy, Numpy, Pandas, Matplotlib, Seaborn, Scikit-Learn}
+}
+\item{
+  \textbf{Tools}{: Git and GitHub, Colab, Jupyter Notebook, Google cloud platform, TensorBoard, VS Code, Linux, PostgreSql-internals}
+}
+\item{
+  \textbf{Web Development}{: HTML, CSS, PHP, Laravel, Javascript, Django, MERN stack}
+}
+\item{
+  \textbf{Research skills}{: LaTeX, Overleaf, ConceptDraw DIAGRAM, Data collection, Data analytics, Algorithm design, Literature review, Technical writing, Text mining}
+}
+\item{
+  \textbf{Soft-Skills}{: Problem-solving, Leadership, Teamwork, Time management, Effective communication skills, Empathy, Agile software development}
+}
+\resumeSubHeadingListEnd
+
+%--------CERTIFICATIONS------------
+\section{Certifications}
+\resumeSubHeadingListStart
+\resumeSubItem{NLP}
+  {Finetuning Large Language Models - DeepLearning.ai, Nov 2023 by Sharon Zhou}
+\resumeSubItem{Neural Networks and Deep Learning}
+  {Course 4/5 | Deep Learning Specialization - Coursera, Jun-Jul 2023 by Andrew NG}
+\resumeSubHeadingListEnd
+
+%--------ACHIEVEMENTS AND COMMUNITIES------------
+\section{Achievements and Communities}
+\resumeSubHeadingListStart
+\resumeSubItem{United Nations Millennium Fellowship - Campus Director (2023)}
+  {From a global pool of 44,000 applicants across 119 nations, I emerged as one of the distinguished (9\%) selected as Millennium Fellows in 2023, and further achieved the distinction of being among the top (1\%) appointed as Campus directors.}
+\resumeSubItem{Campus Ambassador @Devsinc (03/2023 - Present)}
+  {Devsinc is the fastest tech company, with over 1300+ employees. As a Devsinc campus ambassador at NUST University, through various activities and events, I aim to raise awareness of the organization and its offerings and encourage students to engage with Devsinc and explore opportunities to further their careers in the software industry.}
+\resumeSubItem{Vice-President @Hack-Club Nust (08/2021 - Present)}
+  {Team-Lead Admin Event - led multiple events and hackathons related to cloud computing, E-commerce, and programming.}
+
+\resumeSubHeadingListEnd
+
+%--------LANGUAGES------------
+\section{Languages}
+\resumeSubHeadingListStart
+\item{
+  \textbf{English}{: Professional Working Proficiency}
+}
+\item{
+  \textbf{Sindhi}{: Native or Bilingual Proficiency}
+}
+\item{
+  \textbf{Urdu}{: Full Professional Proficiency}
+}
+\resumeSubHeadingListEnd
+
+
+%--------INTERESTS------------
+\section{Interests}
+\resumeSubHeadingListStart
+\item{Startups, Investment, and Business}
+\item{Swimming}
+\item{Horse-riding}
+\resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
+
